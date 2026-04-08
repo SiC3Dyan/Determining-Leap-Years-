@@ -3,7 +3,8 @@ using namespace std;
 
 int maain ()
 {
-  int year
+  int year;
+  cout << "Enter a Year: ";
 
   
 }
