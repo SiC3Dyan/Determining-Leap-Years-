@@ -3,6 +3,9 @@ using namespace std;
 
 int main () {
   int year;
-  cout << 
+  cout << "Enter a Year: ";
+  cin >> year;
+
+  boot isLeap = false;
 }
   
