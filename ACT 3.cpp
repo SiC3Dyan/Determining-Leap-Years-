@@ -16,3 +16,11 @@ int maain ()
   } else if (year % 4 == 0)
     isLeap = true;
 }
+
+if (isleap) {
+  cout <<  year << " is a leap year." << endl;
+} else {
+  cout << year <<
+  
+    
+}
