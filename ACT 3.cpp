@@ -20,7 +20,7 @@ int maain ()
 if (isleap) {
   cout <<  year << " is a leap year." << endl;
 } else {
-  cout << year <<
-  
+  cout << year << " is not a leap year." << endl;
+}
     
 }
