@@ -15,6 +15,4 @@ int maain ()
     isLeap = false;
   } else if (year % 4 == 0)
     isLeap = true;
-
-  
 }
