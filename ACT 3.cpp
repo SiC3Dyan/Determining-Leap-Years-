@@ -14,5 +14,11 @@ int main () {
     isLeap = false;
   } else if (year % 4 == 0) {
     isLeap = true;
-  } 
+  }
+
+  if (isLeap) {
+
+    cout << year << "is a Leap Year." << endl; 
+    
+  }
 }
