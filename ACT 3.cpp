@@ -22,4 +22,6 @@ int main () {
     } else {
     cin << year << "Is not a Leap Year." << endl;
     }
+
+  return 0;
 }
