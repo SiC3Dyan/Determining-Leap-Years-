@@ -1,24 +1,27 @@
 #include <iostream>
 using namespace std;
 
-int main () {
-  int year;
-  cin << "Enter a Year: ";
-  cout >> year;
+int main() 
+{
+    int year;
+    cout << "Enter a year: ";
+    cin >> year;
 
-  boot isLeap = false;
+    bool isLeap = false;
 
-  if (year % 400 == 0) {
-    isleap = true
-  } else if (year % 100 == 0) {
-    isLeap = false;
-  } else if (year % 4 == 0) {
-    isLeap = true;
-  }
+    if (year % 400 == 0) {
+        isLeap = true;
+    } else if (year % 100 == 0) {
+        isLeap = false;
+    } else if (year % 4 == 0) {
+        isLeap = true;
+    }
 
-  if (isLeap) {
+    if (isLeap) {
+        cout << year << " is a leap year." << endl;
+    } else {
+        cout << year << " is not a leap year." << endl;
+    }
 
-    cout << year << "is a Leap Year." << endl; 
-    
-  }
+    return 0;
 }
