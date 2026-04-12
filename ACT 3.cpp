@@ -17,5 +17,9 @@ int main () {
     isLeap true;
   }
 
-  if (leap)
+  if (isleap) {
+    cout << year << "Is a Leap Year." << endl;  
+    } else {
+    cin << year << "Is not a Leap Year." << endl;
+    }
 }
