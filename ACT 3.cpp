@@ -11,5 +11,16 @@ int main () {
 
   if (year % 400 == 0) {
     isLeap = true;
-  } else if ( year 
+  } else if ( year % 100 == 0) {
+    isLeap = false;
+  } else if (year % 4 == 0) {
+    isLeap = true;
+  }
+
+  if (isLeap) {
+    cout << year << "Is a Leap Year." << endl;
+  } else {
+    cout << year << "Is not a Leap Year." << endl;
+  }
+  
 }
