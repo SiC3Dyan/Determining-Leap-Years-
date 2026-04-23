@@ -6,4 +6,8 @@ int main () {
   int year;
   cout << "Enter a Year: ";
     cin >> year;
+
+  if (year % 400 ==0) {
+    
+  }
 }
