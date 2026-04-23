@@ -8,6 +8,8 @@ int main () {
     cin >> year;
 
   if (year % 400 ==0) {
+    isLeap = true;
+  } else if (year % 100 ==0) {
     
   }
 }
