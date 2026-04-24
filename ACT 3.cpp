@@ -10,5 +10,9 @@ int main () {
 
   if ( year % 400 == 0) {
     isLeap = true;
-    }
+    } else if (year % 100 == 0) {
+    isLeap = false;
+    
+    
+                               }
 }
