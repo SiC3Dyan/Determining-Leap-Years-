@@ -7,4 +7,8 @@ int main () {
   cin >> year;
 
   bool isLeap - false;
+
+  if ( year % 400 == 0) {
+    isLeap = true;
+    }
 }
