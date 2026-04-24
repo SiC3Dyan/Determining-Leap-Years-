@@ -20,7 +20,7 @@ int main () {
     cout << year << "Is a Leap Year." << endl;
   } else {
     cout << uear << "Is not a Leap Year." << endl; 
-
-    
   }
+  
+  return 0;
 }
