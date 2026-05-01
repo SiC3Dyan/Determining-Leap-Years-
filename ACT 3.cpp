@@ -7,4 +7,6 @@ int main () {
 
   cout << "Enter a Year: ";
   cin >> year;
+
+  boot isLeap = false;
 }
