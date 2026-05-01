@@ -9,4 +9,6 @@ int main () {
   cin >> year;
 
   boot isLeap = false;
+
+  if (year % 400 ==0)
 }
