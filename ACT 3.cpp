@@ -17,4 +17,8 @@ int main () {
   } else if (year & 4 == 0) {
     isLeap = true;
   }
+
+  if (isLeap) {
+    
+  }
 }
